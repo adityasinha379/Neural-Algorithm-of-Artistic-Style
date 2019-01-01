@@ -5,4 +5,4 @@ In the Code folder, the main Python notebook 'NeuralStyleTransfer.ipynb' has the
 2: **vggnet.py** - contains the VGG class that defines the VGG network configuration.  
 3: **utils.py** - has functions _load_image_ and _imsave_ to load and save the images (perform I/O).  
  
-We use a pre-trained VGG network, with the network weights being stored in _imagenet-vgg-verydeep-19.mat_. This is a large file, and along with vggnet.py, it acts as a proxy for the CNN model.
+We use a pre-trained VGG network, with the network weights being stored in _imagenet-vgg-verydeep-19.mat_, which can be downloaded from https://www.kaggle.com/teksab/imagenetvggverydeep19mat. This is a large file, and along with vggnet.py, it acts as a proxy for the CNN model.
